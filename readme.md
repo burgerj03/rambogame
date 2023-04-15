@@ -20,17 +20,10 @@ So what are you waiting for? Grab your machine gun or machete and get ready to h
 | Pause / unpause game | P |
 | Start game | Enter |
 
-# Running the program
-```commandline
-python main.py
-```
+# Demo
 
-# Refactoring
-* [ ] use dictionaries to store related variables
+![](/home/joel/code/pygame/rambo/screenshots/splash.png)
 
-# Links
-* https://fershopls.itch.io/rambo-character-pack
-* https://www.techwithtim.net/tutorials/game-development-with-python/side-scroller-pygame/background/
-* https://www.piskelapp.com/p/create/sprite
-* https://www.pixilart.com/draw/machete-d3273d880f6619b
+![](/home/joel/code/pygame/rambo/screenshots/gameplay.png)
 
+[View video](https://vimeo.com/818005552)
