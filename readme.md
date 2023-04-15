@@ -22,8 +22,8 @@ So what are you waiting for? Grab your machine gun or machete and get ready to h
 
 # Demo
 
-![](/home/joel/code/pygame/rambo/screenshots/splash.png)
+![](https://github.com/jgguevara/rambogame/blob/main/screenshots/splash.png)
 
-![](/home/joel/code/pygame/rambo/screenshots/gameplay.png)
+![](https://github.com/jgguevara/rambogame/blob/main/screenshots/gameplay.png)
 
 [View video](https://vimeo.com/818005552)
