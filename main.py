@@ -1,12 +1,15 @@
-import os
-import random
-
 import pygame
 
 from bullet import Bullet
 from game import Game
 from high_score import read_high_score
 from player import Player
+
+COVER_IMAGE = 'assets/background/cover.jpg'
+
+BACKGROUND_IMAGE = 'assets/background/forest.png'
+
+GAME_TITLE = 'Rambo'
 
 pygame.init()
 
@@ -44,19 +47,14 @@ BOSS_Y = 443
 
 # Initialize window, background and default font
 win = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-pygame.display.set_caption('Rambo')
+pygame.display.set_caption(GAME_TITLE)
 
-background_list = ['forest.png']
-background_filename = random.choice(background_list)
-
-with open(os.path.join('assets/background', background_filename), 'rb') as f:
+with open(BACKGROUND_IMAGE, 'rb') as f:
     background = pygame.image.load(f).convert()
     background = pygame.transform.scale(background, (WINDOW_WIDTH, WINDOW_HEIGHT))
-
-with open(os.path.join('assets/background', 'cover.jpg'), 'rb') as f:
+with open(COVER_IMAGE, 'rb') as f:
     cover = pygame.image.load(f).convert()
     cover = pygame.transform.scale(cover, (WINDOW_WIDTH, WINDOW_HEIGHT))
-
 large_font = pygame.font.Font(GAME_FONT, 20)
 small_font = pygame.font.Font(GAME_FONT, 18)
 
