@@ -27,3 +27,7 @@ So what are you waiting for? Grab your machine gun or machete and get ready to h
 ![](https://github.com/jgguevara/rambogame/blob/main/screenshots/gameplay.png)
 
 [View video](https://vimeo.com/818005552)
+
+# Credits
+
+https://fershopls.itch.io/rambo-character-pack
