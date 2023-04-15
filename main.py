@@ -5,15 +5,12 @@ from game import Game
 from high_score import read_high_score
 from player import Player
 
-COVER_IMAGE = 'assets/background/cover.jpg'
-
-BACKGROUND_IMAGE = 'assets/background/forest.png'
-
-GAME_TITLE = 'Rambo'
-
 pygame.init()
 
 # Constants
+COVER_IMAGE = 'assets/background/cover.jpg'
+BACKGROUND_IMAGE = 'assets/background/forest.png'
+GAME_TITLE = 'Rambo'
 BACKGROUND_MUSIC = 'assets/music/action.mp3'
 GAME_FONT = "assets/fonts/AtariClassic.ttf"
 GAME_OVER_SOUND_EFFECT = 'assets/sound_effects/game/game-over.wav'
